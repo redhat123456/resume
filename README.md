@@ -1,4 +1,4 @@
-[![star](https://gitee.com/itsay/resume/badge/star.svg?theme=white)](https://github.com/redhat123456/resume/stargazers)   
+[![star](https://github.com/redhat123456/resume/badge/star.svg?theme=white)](https://github.com/redhat123456/resume/stargazers)   
 
 # 个人简历模板
 
