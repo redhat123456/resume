@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]谭前程-热爱生活，热爱技术！！！</title>
+    <link rel="shortcut icon" href="assets/images/favicon.icon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 750px) {
+                    .switch {
+                        position: relative;
+                        display: inline-block !important;
+                        width: 60px;
+                        height: 34px;
+                    }
+
+                    .switch input {
+                        display: none;
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked+.slider {
+                        background-color: #1abc9c;
+                    }
+
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="https://avatars.githubusercontent.com/u/57751257?v=4" onload="loading()">
+                </section>
+
+                <h1 class="name">Tanger</h1>
+                <h4 class="info-job">在读大学生 / 桂林电子科技大学</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>谭前程 / 男 / 21岁</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-4</span>
+                    </li>
+                    <!-- <li>
+                        <label>计算机水平</label>
+                        <span>软考中级</span>
+                    </li>-->
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:15878017512" target="_blank">158-7801-7512</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="mailto:1907065810@qq.com" target="_blank">1907065810@qq.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="http://tanger.ltd/" target="_blank">http://tanger.ltd/</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/redhat123456" target="_blank">github.com/redhat123456</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>HTML</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CSS</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>JavaScript</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>React</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Node.js</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>小程序</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+
+            <div class="stack info-unit">
+                <h2><i class="fa fa-rss" aria-hidden="true"></i>技术栈</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>前端</label>
+                        <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
+                    </li>
+                    <li>
+                        <label>后端</label>
+                        <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
+                    </li>
+                    <li>
+                        <label>其他</label>
+                        <span>Git、SVN、Markdown</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                <hr />
+                <img src="https://i.loli.net/2021/10/04/gpSoW8s4eDEuxM1.jpg" style="width: 100%;" alt="">
+            </section>
+
+            <!-- 技术栈 -->
+
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+                </h2>
+                <hr />
+                <ul>
+
+                    <li>
+                        <h3>
+                            <span>桂林电子科技大学 - 数学与应用数学专业（本科）</span>
+                            <time>2019.9-2023.7</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>20/40</mark>，期间担任七院创新基地主席一职，三等奖学金X次。
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[经历1]桂林安维科技有限公司－前端开发工程师（实习）</span>
+                            <time>2021.8 至 2021.9</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>参与XX项目AI盒子的前端开发工作，独立承担并完成XX、XX、XXXX等功能点的开发，主要维护并修复XX、XX、XX等功能点bug若干。项目采用技术栈
+                                <mark>Vue2+Vue Router+CSS</mark>，实现
+                                <mark>前后端完全分离</mark>。
+                            </li>
+                            <li>配合UI和后端，根据产品需求提供H5页面嵌入到后台模板，要求
+                                <mark>移动端显示正常</mark>。
+                            </li>
+                            <li>主要参与XXXXXXX的静态页面开发工作，要求
+                                <mark>在支付宝环境下完全兼容</mark>。
+                            </li>
+                        </ul>
+                    </li>
+                    <!--  <li>
+                        <h3>
+                            <span>[经历2]XX－前端开发工程师（实习）</span>
+                            <time>20XX.10-20XX.7</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>深度参与公司主线产品「XXXX」的前端开发工作，完成帖子快捷回复、
+                                <mark>全站图片懒加载</mark>、活动banner、帖子管理（使用Yii框架）等功能。项目采用技术栈phpWind+NAMP。
+                                <a href="http://itsay.tech/162/" target="_blank">
+                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。
+                            </li>
+                            <li>主要参与公司产品「XXXX」的前端开发工作，实现接入微博、微信、QQ等
+                                <mark>第三方账号登录</mark>等功能。项目采用技术栈WordPress+NAMP。
+                            </li>
+                            <li>活动页面的开发（七夕活动、抽奖活动以及承接外包页面）。</li>
+                            <li>论坛
+                                <mark>图片增量备份</mark>（CentOS+vsftpd+crontab）
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。
+                            </li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]医学科学数据管理与共享平台</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>201X.X-201X.X</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：ThinkPHP+MongoDB+Axure</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现多类型多来源医学科学数据的提交、管理和共享
+                                <br />
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]同 2 位同专业同学一起
+                                <br />
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]完成从
+                                <mark>“调研-设计-实现-文档”</mark>等工作，主要负责系统原型、功能框架及数据提交流程、元数据及源数据的管理与共享方案的设计以及系统开发等工作
+                                <br />
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品最终取得第三届共享杯国家级竞赛“一等奖” （2/2000）
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2]肿瘤流行病数据可视化</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>201X.X-201X.X</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
+                                <br />
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 1 位同学
+                                <br />
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
+                                <mark>D3.js</mark> 和
+                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
+                                <br />
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3]肿瘤流行病数据可视化</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>201X.X-201X.X</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
+                                <br />
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 1 位同学
+                                <br />
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
+                                <mark>D3.js</mark> 和
+                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析功能
+                                <br />
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目4]肿瘤流行病数据可视化</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>201X.X-201X.X</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
+                                <br />
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 1 位
+                                <br />
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
+                                <mark>D3.js</mark> 和
+                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
+                                <br />
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望
+                </h2>
+                <hr />
+                <p>
+                    <span class="mark-txt">“严于律己，宽以律人”</span>是我给自己总结的“八字箴言”，鞭策自己做人不要总是想着要求别人，要朝着要求自己让对每件事更加认真和刻苦些。
+                </p>
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="legals">
+                        <li><a class="a1" href="https://github.com/redhat123456" target="_blank">关于</a></li>
+                        <li><a class="a2" href="http://tanger.ltd/" target="_blank">博客</a></li>
+                        <li><a class="a3" href="http://tanger.ltd/router_index/" target="_blank">导航</a></li>
+                    </ul>
+                    <div class="line"></div>
+                    <ul class="legals_social">
+                        <li display:block;><a href="http://weibo.com/briniceapp" title="github"><i
+                                    class="fa fa-github"></i></a></li>
+                        <!--TODO：加入微信-->
+                        <li display:block;><a href="mailto:1907065810@qq.com" title="联系我"><i
+                                    class="fa fa-envelope-o"></i></a></li>
+                    </ul>
+                    <p class="copy">© 2020 - 至今 · 热爱生活 热爱技术 · All Rights Reserved</p>
+                    <p class="copy"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://github.com/redhat123456/resume" target="_blank">源代码</a>
+            </li>
+            <li>
+                <a href="http://if2er.com/" target="_blank">英文？</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
+
+<style>
+    .footer {
+        color: #8c9398;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 60px;
+    }
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 20px 0px;
+    }
+
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .legals {
+        list-style: none;
+        color: #8c9398;
+        font-size: 14px;
+        margin: 5px auto;
+        padding: 0px !important;
+        text-align: center;
+        height: 20px;
+        flex-flow: row nowrap;
+        text-align: center;
+    }
+
+    .legals_social {
+        list-style: none;
+        color: #8c9398;
+        font-size: 14px;
+        margin: 5px auto;
+        padding: 0px !important;
+        text-align: center;
+        height: 20px;
+        flex-flow: row nowrap;
+        text-align: center;
+    }
+
+    .line {
+        border-bottom: 1px solid #ababab;
+        width: 170px;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+        margin: 5px auto;
+
+    }
+
+    .legals li a {
+        color: #353535;
+    }
+
+    .a1:hover {
+        color: #FC0000;
+    }
+
+    .a2:hover {
+        color: #0100FC;
+    }
+
+    .a3:hover {
+        color: #00FE00;
+    }
+
+    .legals li {
+        list-style: none;
+        color: #8c9398;
+        text-align: center;
+        display: inline;
+        line-height: 20px;
+        width: 68px;
+        height: 20px;
+        padding: 0px 20px;
+    }
+
+    .legals_social li {
+        list-style: none;
+        color: #353535;
+        text-align: center;
+        display: inline;
+        line-height: 28px;
+        width: 68px;
+        height: 28px;
+        padding: 0px 5px;
+    }
+
+    .legals_social li a {
+        color: #353535;
+
+    }
+
+    .legals_social li a:hover {
+        color: #20a0ff;
+    }
+
+    .legals_social li a i {
+        font-size: 20px;
+    }
+
+    .copy {
+        height: 25px;
+        font: 12px "Varela Round", sans-serif;
+        margin: 10px 0px;
+        text-align: center;
+        color: #404142;
+    }
+</style>
