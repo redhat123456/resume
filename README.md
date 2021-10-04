@@ -2,7 +2,7 @@
 
 # 个人简历模板
 
-[http://itsay.gitee.io/resume](http://itsay.gitee.io/resume)
+[https://github.com/redhat123456/resume](https://github.com/redhat123456/resume)
 
 ## Intro
 
