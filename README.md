@@ -1,4 +1,4 @@
-[![star](https://gitee.com/itsay/resume/badge/star.svg?theme=white)](https://gitee.com/itsay/resume/stargazers)    [![fork](https://gitee.com/itsay/resume/badge/fork.svg?theme=white)](https://gitee.com/itsay/resume/members)
+[![star](https://gitee.com/itsay/resume/badge/star.svg?theme=white)](https://github.com/redhat123456/resume/stargazers)   
 
 # 个人简历模板
 
