@@ -2,6 +2,8 @@
 
 [https://github.com/redhat123456/resume](https://github.com/redhat123456/resume)
 
+预览：[http://tanger.cloud/resume](http://tanger.cloud/resume)
+
 ## Intro
 
 此简历模板：
