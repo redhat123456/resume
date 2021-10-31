@@ -9,7 +9,7 @@
 此简历模板：
 
 - 内容上，来源于我本人真实求职经历以及参加多次网上简历培训总结而成
-- 风格上，参考众多简历风格，@张大侠，@ekCit 以及~~我自己的 Hexo 主题 [hexo-theme-MiHoYo](https://github.com/redhat123456/hexo-theme-MiHoYo)~~
+- 风格上，参考众多简历风格，@张大侠, 以及~~我自己的 Hexo 主题 [hexo-theme-MiHoYo](https://github.com/redhat123456/hexo-theme-MiHoYo)~~
 
 欢迎提 issue 或者 star，ღ( ´･ᴗ･` )比心
 
