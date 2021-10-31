@@ -1,5 +1,3 @@
-[![star](https://github.com/redhat123456/resume/badge/star.svg?theme=white)](https://github.com/redhat123456/resume/stargazers)
-
 # 个人简历模板
 
 [https://github.com/redhat123456/resume](https://github.com/redhat123456/resume)
