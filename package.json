@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "a resume Web ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat123456/resume.git"
+  },
+  "keywords": [
+    "Web"
+  ],
+  "author": "redhat123456",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redhat123456/resume/issues"
+  },
+  "homepage": "https://github.com/redhat123456/resume#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}
