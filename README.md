@@ -2,7 +2,7 @@
 
 [https://github.com/redhat123456/resume](https://github.com/redhat123456/resume)
 
-预览：[http://tanger.ltd/resume](http://tanger.ltd/resume)
+预览：[http://resume.tanger.ltd](http://resume.tanger.ltd)
 
 ## Intro
 
